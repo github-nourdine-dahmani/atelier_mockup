@@ -1,0 +1,70 @@
+ATELIER — MAQUETTE INTERACTIVE V5
+Livraison pour hébergement indépendant — 16 octobre 2026
+
+OBJECTIF
+Mettre en ligne cette démo avec un lien public sans connexion afin de tester
+le parcours produit. Cette version comprend le montage narratif porté par
+les paroles dans « Monter », ainsi que la vue chronologique.
+
+PUBLICATION
+1. Décompresser l'archive.
+2. Publier le CONTENU du dossier dist sur un hébergement de fichiers statiques.
+3. L'entrée du site est index.html. Choisir dist comme dossier de publication.
+4. Aucun build n'est nécessaire pour cette livraison. Aucun npm install,
+   backend, base de données, compte OpenAI ou clé API n'est requis.
+5. Servir la page en HTTPS avec le type text/html ; ne pas protéger le lien
+   par un écran de connexion si l'on souhaite le partage public demandé.
+
+Ne publier que dist. Les autres fichiers servent à modifier ou vérifier la
+maquette. L'archive ne contient pas la configuration de l'ancien hébergement,
+de dépôt Git, d'identifiants ou de fichiers de mariage.
+
+CONTENU
+dist/index.html       Page prête à publier, illustrations WebP intégrées.
+source/frame.html    Interface et logique de la démo, HTML/CSS/JavaScript.
+source/shell.html    Enveloppe autonome : iframe, styles de base, sauvegarde locale.
+build.py             Reconstruction portable, bibliothèque standard Python 3.
+tests/test.cjs       49 scénarios de logique et d'interaction, Node.js 18+.
+tests/verification.json  Résultat des contrôles de cette livraison.
+PARCOURS_DE_TEST.txt  Parcours de démonstration et recette navigateur.
+SHA256SUMS.txt        Empreintes des fichiers livrés.
+
+MODIFICATIONS
+Modifier source/frame.html pour faire évoluer l'interface ou la logique.
+Depuis le dossier de l'archive :
+  python3 build.py
+  node tests/test.cjs
+Puis republier le dossier dist. Aucun module Python ou Node externe requis.
+Le test lit le JavaScript de la page réellement construite dans dist.
+
+FONCTIONNEMENT ET LIMITES
+- Les données, les paroles, les noms de musiques et les plans sont fictifs.
+- Les choix, remplacements, sélections, contrôles et états de l'interface
+  fonctionnent dans le navigateur ; les médias illustrent les scénarios.
+- L'import/analyse des rushs, la synchronisation réelle, la transcription,
+  la génération IA, la lecture audiovisuelle et les exports natifs vers
+  Resolve, Final Cut ou Premiere ne sont pas implémentés dans cette maquette.
+- Les choix sont conservés localement lorsque le navigateur autorise le
+  localStorage. Ils ne sont pas synchronisés entre visiteurs ou appareils.
+- « Recommencer la démo » réinitialise les choix de la démo.
+- L'exemple narratif de « Monter » est volontairement isolé : ses variations
+  ne recalculent pas les autres étapes. C'est une démonstration de cette vue.
+
+DEPENDANCES D'AFFICHAGE
+Les illustrations sont incluses dans la page. Trois scripts d'affichage
+versionnés sont chargés depuis unpkg.com :
+- @floating-ui/core 1.7.3
+- @floating-ui/dom 1.7.4
+- lucide 1.17.0
+Le navigateur doit pouvoir les charger. Pour un déploiement hors ligne,
+prévoir leur intégration locale et adapter les chemins et la CSP.
+La page contient déjà une politique Content-Security-Policy. Ne pas ajouter
+une politique d'hébergement plus restrictive sans vérifier sa compatibilité
+avec les scripts/styles intégrés, l'iframe srcdoc et ces dépendances.
+
+VALIDATION
+Les 49 scénarios JavaScript passent avec un DOM minimal simulé. Ils ne
+remplacent pas une recette visuelle et fonctionnelle dans un navigateur.
+Le rendu réel, les dépendances externes et la persistance après actualisation
+restent à vérifier après hébergement, notamment sur Safari et Chrome.
+Le parcours de test joint précise les points à examiner.

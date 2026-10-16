@@ -1,0 +1,51 @@
+ATELIER V5 — PARCOURS DE DEMONSTRATION
+
+1. DEMARRER
+Ouvrir le lien et choisir Film long. Observer le projet de démonstration.
+
+2. CLASSER
+Parcourir les familles de rushs, les propositions de classement et leur
+validation. Les importations de cette maquette restent simulées.
+
+3. DERUSHER
+Choisir une famille, passer d'un rush à l'autre, consulter les portions
+sélectionnées et les priorités. Tester l'ajout et le retrait d'une sélection.
+
+4. PAROLES
+Basculer entre cérémonie et dîner. Cocher/décocher des interventions,
+consulter les extraits et les propositions de placement.
+
+5. MODELES
+Lire la recommandation, choisir une alternative et appliquer le changement.
+Le vidéaste doit pouvoir garder le contrôle du choix artistique.
+
+6. MUSIQUES
+Consulter les musiques prévues, proposer un remplacement puis l'appliquer.
+Les propositions n'équivalent pas à une écoute de fichiers audio réels.
+
+7. MONTER — EXEMPLE NARRATIF
+Dans le film long, comparer « Porté par les paroles » et « Chronologique ».
+Dans la vue narrative, choisir une intention, une parole puis un plan.
+Observer une parole continue sous plusieurs familles d'images. Afficher
+la caméra de l'orateur, remplacer un plan, verrouiller puis annuler.
+Cet exemple est isolé pour préserver les autres écrans du parcours.
+
+8. CONTROLER ET TRANSMETTRE
+Consulter les vérifications et le récapitulatif du transfert vers un logiciel
+de montage. La démo prépare l'expérience utilisateur, pas un véritable
+fichier de projet natif Resolve, Final Cut ou Premiere.
+
+9. AUTRES LIVRABLES
+Passer au teaser et au Reel, puis revenir au film long. Vérifier que les
+choix propres aux différents livrables restent distincts.
+
+RECETTE APRES HEBERGEMENT
+- Ouvrir le lien public sans être connecté à un compte OpenAI.
+- Vérifier l'affichage des images, icônes, menus et panneaux.
+- Vérifier qu'aucune erreur bloquante n'apparaît dans la console navigateur.
+- Modifier un choix, actualiser : l'état doit revenir si le stockage local
+  est disponible ; un navigateur privé peut limiter cette conservation.
+- Ouvrir le lien sur un autre navigateur : ses choix doivent être indépendants.
+- Cliquer sur « Recommencer la démo » et vérifier le retour à l'état initial.
+- Examiner la navigation et le défilement sur différents écrans.
+- Tester Safari et Chrome avant de diffuser largement le lien.

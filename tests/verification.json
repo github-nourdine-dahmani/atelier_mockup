@@ -1,0 +1,201 @@
+{
+  "method": "JavaScript execution with a minimal DOM stand-in; no browser rendering verified",
+  "results": [
+    {
+      "name": "Initial film, teaser and Reel have valid source intervals",
+      "result": "PASS"
+    },
+    {
+      "name": "Every screen renders for all three formats",
+      "result": "PASS"
+    },
+    {
+      "name": "Required moments cannot be replaced",
+      "result": "PASS"
+    },
+    {
+      "name": "Plan locking prevents replacement",
+      "result": "PASS"
+    },
+    {
+      "name": "Music replacement preserves shots and other deliverables",
+      "result": "PASS"
+    },
+    {
+      "name": "Rhythm changes keep chapter durations and locked anchors",
+      "result": "PASS"
+    },
+    {
+      "name": "Voice replacement updates duration without overlapping voices",
+      "result": "PASS"
+    },
+    {
+      "name": "Default model music changes, personal and protected music remain",
+      "result": "PASS"
+    },
+    {
+      "name": "A different template remains selectable despite recommendation",
+      "result": "PASS"
+    },
+    {
+      "name": "Church with no speeches recommends musical church template",
+      "result": "PASS"
+    },
+    {
+      "name": "An incomplete party import does not remove the party",
+      "result": "PASS"
+    },
+    {
+      "name": "Absent party gets adaptation after explicit template application",
+      "result": "PASS"
+    },
+    {
+      "name": "Film source scope is blocked until validation",
+      "result": "PASS"
+    },
+    {
+      "name": "Teaser snapshot only uses source frames visible in approved film",
+      "result": "PASS"
+    },
+    {
+      "name": "Unused selections are evaluated by distinct source ranges",
+      "result": "PASS"
+    },
+    {
+      "name": "Scoped state saves below 16 KiB and restores source durations",
+      "result": "PASS"
+    },
+    {
+      "name": "Removing an authorized range is caught by validation",
+      "result": "PASS"
+    },
+    {
+      "name": "Extra speech can be added and removed independently",
+      "result": "PASS"
+    },
+    {
+      "name": "Editor choices and transfer preview do not claim native export",
+      "result": "PASS"
+    },
+    {
+      "name": "Opens on the restored culling workspace",
+      "result": "PASS"
+    },
+    {
+      "name": "Classification suggestions await explicit confirmation",
+      "result": "PASS"
+    },
+    {
+      "name": "Reclassification updates every portion of one file only",
+      "result": "PASS"
+    },
+    {
+      "name": "Family filter, right sidebar, I/O and source selection agree",
+      "result": "PASS"
+    },
+    {
+      "name": "Checkbox removes only a single selected source portion",
+      "result": "PASS"
+    },
+    {
+      "name": "Stars, Purple intro and teaser priorities toggle per portion",
+      "result": "PASS"
+    },
+    {
+      "name": "An I/O selection can be saved twice without duplicate portions",
+      "result": "PASS"
+    },
+    {
+      "name": "New I/O portions preserve previous source selections",
+      "result": "PASS"
+    },
+    {
+      "name": "Editing existing I/O updates that portion without adding a duplicate",
+      "result": "PASS"
+    },
+    {
+      "name": "Invalid I/O is rejected without changing selections",
+      "result": "PASS"
+    },
+    {
+      "name": "Unselected candidate suggestions require acceptance",
+      "result": "PASS"
+    },
+    {
+      "name": "Speech checkboxes are visible and affect only the active deliverable",
+      "result": "PASS"
+    },
+    {
+      "name": "Protected speech cannot be unchecked",
+      "result": "PASS"
+    },
+    {
+      "name": "Speech ceremony and dinner tabs keep context and independent choices",
+      "result": "PASS"
+    },
+    {
+      "name": "Vows can be placed under a compatible image chapter",
+      "result": "PASS"
+    },
+    {
+      "name": "Speech validation leads to template selection, not automatic replacement",
+      "result": "PASS"
+    },
+    {
+      "name": "Restored UI keeps state below the host storage limit",
+      "result": "PASS"
+    },
+    {
+      "name": "Narrative example has a continuous 10:15 film with valid unique source segments",
+      "result": "PASS"
+    },
+    {
+      "name": "Narrative opening starts with a Purple drone and couple, then crosses event families",
+      "result": "PASS"
+    },
+    {
+      "name": "One uninterrupted vow covers several families without moving the voice",
+      "result": "PASS"
+    },
+    {
+      "name": "Showing the synchronized speaker leaves coverage and words intact",
+      "result": "PASS"
+    },
+    {
+      "name": "Image alternatives may come from several folders and preserve the narrative audio",
+      "result": "PASS"
+    },
+    {
+      "name": "Narrative image locks prevent replacement",
+      "result": "PASS"
+    },
+    {
+      "name": "Act navigation, individual plans, and continuous-word blocks are synchronized",
+      "result": "PASS"
+    },
+    {
+      "name": "Maternal and dinner words cannot suggest unrelated preparations or party reactions",
+      "result": "PASS"
+    },
+    {
+      "name": "Chronological view preserves the former Monter screen",
+      "result": "PASS"
+    },
+    {
+      "name": "Other deliverables still use the existing editor",
+      "result": "PASS"
+    },
+    {
+      "name": "The narrative example does not mutate project, culling, speech, template or music state",
+      "result": "PASS"
+    },
+    {
+      "name": "Narrative options persist within the storage budget",
+      "result": "PASS"
+    },
+    {
+      "name": "Hosted reset restores narrative example and current project together",
+      "result": "PASS"
+    }
+  ]
+}
